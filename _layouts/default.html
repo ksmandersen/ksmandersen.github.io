@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Mono:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- syntax highlighting CSS -->
+        {% stylesheet main %}
+        {% if page.custom_css %}{{ page.custom_css | stylesheet }}{% endif %}
+
+    </head>
+    <body>
+      <div class="container">
+        <div class="header-container">
+          <header class="header">
+            
+            <div class="bside">
+              <p>Hi! I'm Kristian. I'm an iOS &amp; Frontend Developer at <a href="http://robo.cat">Robocat</a> where I do <a href="http://televisedapp.com/">Televised</a> and a million other awesome things. I love <a href="http://github.com/ksmandersen">GitHub</a> and I <a href="http://twitter.com/ksmandersen">Tweet</a> a lot.</p>
+            </div>
+            <div class="aside">
+              <a href="/"><img class="avatar" src="http://robocatapps.com/images/andersen-x2.jpg" /></a>
+            </div>
+          </header>
+        </div>
+
+        <div class="content-container">
+          <section role="main" class="content">
+            {{ content }}
+          </section>
+        </div>
+
+        <div class="footer-container">
+          <footer class="footer"></footer>
+        </div>
+
+        </div>
+    </body>
+</html>

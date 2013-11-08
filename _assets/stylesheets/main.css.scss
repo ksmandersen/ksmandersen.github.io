@@ -1,0 +1,140 @@
+@import "bourbon";
+// $visual-grid: true;
+@import "neat";
+@import "normalize";
+@import "syntax";
+
+$default-font: "Droid Sans", sans-serif;
+$default-size: 13pt;
+$default-color: rgb(69, 69, 69);
+$default-line-height: 21pt;
+$header-font: "Drod Serif", serif;
+$code-font: Menlo, Monaco, "Droid Mono", monospace;
+
+
+$max-width: 960px;
+
+body, blockquote, a, li, strong {
+  font-family: $default-font;
+  color: $default-color;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, p, a, em, strong {
+	font-size: $default-size;
+}
+
+h1, h2, h3, h4 {
+	font-family: $header-font;
+	color: $default-color;
+	-webkit-font-smoothing: antialiased;
+}	
+
+h1 {
+	font-size: 2em;
+}
+
+body {
+	background-color: #fff;
+
+}
+
+p {
+	line-height: $default-line-height;
+}
+
+a {
+	color: rgb(187, 0, 0);
+}
+
+blockquote {
+	color: rgb(142, 142, 142);
+	border-left: 1px dotted rgb(192, 192, 192);
+	margin-left: 0;
+	padding-left: 2em;
+
+	a {
+		color: rgb(132, 132, 132);
+	}
+}
+
+code, pre {
+	font-family: $code-font;
+}
+
+.container {
+	@include outer-container;
+}
+
+.meta {
+	color: rgb(132, 132, 132);
+}
+
+.post pre {
+	margin-left: 2em;
+	font-size: 80%;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.posts {
+	list-style-type: none;
+
+}
+
+.header {
+	@include row;
+	height: 130px;
+	margin-bottom: 20px;
+
+	.aside {
+		@include span-columns(2 of 12);
+		text-align: center;
+
+		.avatar {
+			border-radius: 50%;
+			box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2);
+			width: 90px;
+			height: 90px;
+			margin-top: 20px;
+		}
+	}
+
+	.bside {
+		@include span-columns(10 of 12);
+		// @include shift(1);
+		@include omega;
+
+		p {
+			margin-top: 40px;
+		}
+	}
+}
+
+.clearfix {
+	clear: both;
+}
+
+.posts {
+	padding: 0;
+
+	li, li a {
+		font-size: 15pt;
+		line-height: 24pt;
+	}
+
+	li {
+		@include row;
+
+		span {
+			@include span-columns(4 of 12);
+			text-align: right;
+		}
+
+		a {
+			@include span-columns(8 of 12);
+			@include omega;
+			text-decoration: none;
+		}
+	}
+}
