@@ -1,3 +1,5 @@
-name: Kristian's coding adventures
 markdown: redcarpet
+name: Kristian's coding adventures
+# safe: true
+lsi: false
 pygments: true
