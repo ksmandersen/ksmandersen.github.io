@@ -1,5 +1,8 @@
 markdown: redcarpet
 name: Kristian's coding adventures
-# safe: true
 lsi: false
 pygments: true
+
+name: Kristian's coding adventures
+description: Thoughts of an iOS developer
+url: http://kristian.co
