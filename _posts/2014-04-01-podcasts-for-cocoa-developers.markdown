@@ -52,6 +52,3 @@ I also listen to some non-development related podcasts and here are my favourite
 If you have some suggestions for good podcasts on your own I'd love to [hear about them](http://twitter.com/ksmandersen)! 
 
 For the ones who haven't quite settled on a preferred podcast client you should try [Castro](http://castro.fm). Its elegantly designed, simple and it works every time!.
-
-**Update**   
-I’ve gotten a few suggestions from people that I would like to include. [Anders Fogh Eriksen](https://twitter.com/f0gh) recommends [the NSNorth podcast](http://nsnorth.ca/podcast) which I also subscribe to but didn’t make my top 10 list.
