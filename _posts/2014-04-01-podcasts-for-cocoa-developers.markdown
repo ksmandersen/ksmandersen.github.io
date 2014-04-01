@@ -19,7 +19,7 @@ Currently in its first season the show is dedicated to tell the story of develop
 Hosted by infamous [Rene Ritche](https://twitter.com/reneritchie) and [Guy English](https://twitter.com/gte) this is another show that interviews cool developers in the Cocoa development community and discuss history and timely topics.
 
 **4. [Edge Cases](http://edgecasesshow.com/)**  
-I recently started listening to this show and currently in the processes of listening through the backlog of 80 episodes. In this show [Andrew Pontious](https://twitter.com/apontious) and [Wofl Rentzsch](https://twitter.com/rentzsch) discuss timeless topics in Cocoa development and how to how to solve difficult topics.
+I recently started listening to this show and currently in the processes of listening through the backlog of 80 episodes. In this show [Andrew Pontious](https://twitter.com/apontious) and [Wolf Rentzsch](https://twitter.com/rentzsch) discuss timeless topics in Cocoa development and how to how to solve difficult topics.
 
 **5. [Notification Center](http://www.notificationcenter.tv/)**  
 Formed as a casual conversation between [Ash Furrow](https://twitter.com/ashfurrow) and [Top Copley](https://twitter.com/swizzlr) this shows touch on timely topics. The show is very casual end very enjoyable.
@@ -52,3 +52,4 @@ I also listen to some non-development related podcasts and here are my favourite
 If you have some suggestions for good podcasts on your own I'd love to [hear about them](http://twitter.com/ksmandersen)! 
 
 For the ones who haven't quite settled on a preferred podcast client you should try [Castro](http://castro.fm). Its elegantly designed, simple and it works every time!.
+
