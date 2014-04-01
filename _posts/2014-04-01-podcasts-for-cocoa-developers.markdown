@@ -34,7 +34,7 @@ There is something profoundly funny about listening to [Daniel Jalkut](https://t
 In this podcast [Ash Furrow](https://twitter.com/ashfurrow) (who also co-hosts [Notification Center](http://www.notificationcenter.tv/)) interviews developers in the Mac and iOS community while focusing on new developers entering the field.
 
 **9. [Developing Perspective](http://developingperspective.com/)**  
-[David Smith](https://twitter.com/_davidsmith) (aKa. underscore) takes a refreshing look at various topics in developing apps for the iOS platform. Each podcast is under 15 minutes and have gives great food for thought.
+[David Smith](https://twitter.com/_davidsmith) (aKa. underscore) takes a refreshing look at various topics in developing apps for the iOS platform. Each podcast is under 15 minutes and always gives great food for thought.
 
 **10. [iPhreaks Show](http://iphreaksshow.com/)**   
 This podcast is the most recent addition to my many subscriptions and I have only managed to listen to a few episodes so far. This show is also based on interviewing developers and discussing interesting development topics in Cocoa. I can warmly recommend their episodes on [Concurrency with Jeff Kellyey](http://iphreaksshow.com/042-iphreaks-show-concurrency-with-jeff-kelley/) and [64-bit with Mike Ash](http://iphreaksshow.com/024-iphreaks-show-64-bit-with-mike-ash/).
@@ -53,3 +53,5 @@ If you have some suggestions for good podcasts on your own I'd love to [hear abo
 
 For the ones who haven't quite settled on a preferred podcast client you should try [Castro](http://castro.fm). Its elegantly designed, simple and it works every time!.
 
+**Update**   
+I’ve gotten a few suggestions from people that I would like to include. [Anders Fogh Eriksen](https://twitter.com/f0gh) recommends [the NSNorth podcast](http://nsnorth.ca/podcast) which I also subscribe to but didn’t make my top 10 list.
