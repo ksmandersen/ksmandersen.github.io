@@ -3,7 +3,7 @@ layout: post
 title: "My favorite iOS Keyboard: Kaomoji"
 date: 2014-10-14 12:14
 published: false
-categoriy: reviews
+category: reviews
 tags: review, thoughts, recommendations
 ---
 
