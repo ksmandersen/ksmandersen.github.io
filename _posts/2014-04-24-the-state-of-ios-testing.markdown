@@ -2,7 +2,7 @@
 layout: post
 title: "The state of testing iOS apps"
 date: 2014-04-24 14:50
-comments: true
+published: true
 ---
 
 I've been spending more and more time researching and thinking about testing apps in the past few months. At the university they teach you that testing (in particular Unit Testing) is an integral part of the development process that you must not skip. I've heard from many fellow students that they use testing rogoursley in their development jobs using C#, Java, etc. This is far from my experience writing iOS Apps. You can practically see the tumbleweeds crossing the testing dessert in Objective-C land. 

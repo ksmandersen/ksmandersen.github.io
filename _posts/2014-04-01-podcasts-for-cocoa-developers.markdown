@@ -1,7 +1,7 @@
 ---
-published: true
-title: Podcasts for Cocoa Developers
 layout: post
+title: Podcasts for Cocoa Developers
+published: true
 ---
 
 As any good Copenhagen citizen I commute to and from work/university on my bike which adds up to an average 22 km per day (that's 13 miles for you americans). This gives me a great excuse and opportunity to listen to podcasts. I subscribe to a total of 29 podcasts, which seems like a lot but is really not with 10 hours of commute every week.

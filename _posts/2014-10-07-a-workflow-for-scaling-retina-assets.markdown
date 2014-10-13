@@ -2,7 +2,7 @@
 layout: post
 title: "A workflow for scaling retina assets"
 date: 2014-10-07 11:15
-comments: true
+published: true
 ---
 
 Yesterday I published a small Automator workflow for OS X that I use to generate @2x and @1x scaled versions of my @3x assets. Apparently it generated a bit of fuzz [on twitter](https://twitter.com/ksmandersen/status/519144015837814784), so I thought it might be worth posting here too.

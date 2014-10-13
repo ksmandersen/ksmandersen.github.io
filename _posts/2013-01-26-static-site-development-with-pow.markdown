@@ -2,7 +2,7 @@
 layout: post
 title: "Static site development with pow"
 date: 2013-01-26 12:13
-comments: true
+published: true
 ---
 
 Ever had to set up Apache and VirtualHosts for local web developemnt?
