@@ -6,7 +6,7 @@ title: Kristian Andersen
 <div class="posts">
 	{% for post in site.posts | limit:5 %}
 		<div class="post">
-			<h1>{{ post.title }}</h1>
+			<a class="perma" href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
 			<p class="meta">{{ post.date | date_to_string }}</p>
 			{{ post.content }}
 		</div>

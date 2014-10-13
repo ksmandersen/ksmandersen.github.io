@@ -110,6 +110,15 @@ code, pre {
 	}
 }
 
+a.perma {
+	text-decoration: none;
+	color: $default-color;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 .header {
 	@include row;
 	// height: 130px;
