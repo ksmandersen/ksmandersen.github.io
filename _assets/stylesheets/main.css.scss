@@ -4,21 +4,14 @@
 @import "normalize";
 @import "syntax";
 
-$default-font: "Droid Sans", sans-serif;
-$default-size: 13pt;
+$default-font: Georgia, serif;
+$default-size: 14pt;
 $default-color: rgb(69, 69, 69);
 $default-line-height: 21pt;
-$header-font: "Drod Serif", serif;
-$code-font: Menlo, Monaco, "Droid Mono", monospace;
+$header-font: "Helvetica Neue", Helvetica, sans-serif;
+$code-font: monospace;
 
 $max-width: 960px;
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
 
 body, blockquote, a, li, strong {
   font-family: $default-font;
@@ -38,6 +31,15 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 2.2em;
+	margin-bottom: 0px;
+}
+
+h2 {
+	margin-bottom: 0px;
+}
+
+h2 + p {
+	margin-top: 10px;
 }
 
 body {
@@ -70,10 +72,18 @@ code, pre {
 
 .container {
 	@include outer-container;
+	padding: 0 10px;
+}
+
+.content {
 }
 
 .meta {
-	color: rgb(132, 132, 132);
+	font-family: $header-font;
+	font-size: 0.9em;
+	font-weight: 500;
+	margin-top: 0;
+	color: rgb(162, 162, 162);
 }
 
 .post pre {
@@ -83,15 +93,26 @@ code, pre {
 	word-wrap: break-word;
 }
 
+.post img {
+	max-width: 100% !important;
+}
+
 .posts {
 	list-style-type: none;
 
+	.post {
+		margin-bottom: 150px;
+	}
 }
 
 .header {
 	@include row;
-	height: 130px;
+	// height: 130px;
 	margin-bottom: 20px;
+
+	p {
+		// font-family: $header-font;
+	}
 
 	.aside {
 		@include span-columns(2 of 12);
@@ -142,5 +163,19 @@ code, pre {
 			@include omega;
 			text-decoration: none;
 		}
+	}
+}
+
+@include media(max-width 600px) {
+	h1 {
+		font-size: 1.8em;
+	}
+
+	h2 {
+		font-size: 1.4em;
+	}
+
+	p {
+		font-size: 0.9em;
 	}
 }
