@@ -2,7 +2,7 @@
 layout: post
 title: "Setting up Octopress with nginx"
 date: 2012-04-04 14:50
-published: true
+published: false
 ---
 I decided to write up this quick little post containing my basic nginx configuration. I did
 it mostly in documentation for myself. However, should you find it helpful or interesting then
