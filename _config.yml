@@ -1,11 +1,13 @@
 markdown: redcarpet
 name: Kristian's coding adventures
 lsi: false
-pygments: true
+highlighter: pygments
 
 name: Kristian's coding adventures
 description: Thoughts of an iOS developer
 url: http://kristian.co
+timezone: Europe/Copenhagen
+encoding: utf-8
 
 sitemap:
     file: "/sitemap.xml"
