@@ -16,7 +16,7 @@ I have been using this workflow for ages for downscaling @2x assets to @1x. It o
 You can get the workflow right here:
 
 <center>
-[![Unretina Workflow]({{ 'unretina_workflow_screenshot.png' | asset_path }})](http://kristian.co/downloads/Unretina.workflow.zip)
+[![Unretina Workflow]({{ 'unretina_workflow_screenshot.png' | asset_path }})](/downloads/unretina.workflow.zip)
 </center>
 
 ## Sidenote
