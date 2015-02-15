@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Nordic Game Jam 2015 ~ kristian.co</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="RSS feed"/>
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/assets/main-efaf160500a2d96a3b918d68dc4a1d43.css">
+        
+
+    </head>
+    <body>
+      <div class="container">
+        <div class="header-container">
+          <header class="header">
+            <div class="bside">
+              <a href="/"><img class="avatar" src="/assets/andersen-x2-eb7cb38244e48a2448e7f45c6bb80b2a.jpg" /></a>
+
+              <p>Hi! I'm Kristian. I'm an iOS &amp; Frontend Developer at <a href="http://robo.cat">Robocat</a> where I do <a href="http://televisedapp.com/">Televised</a> and a million other awesome things. I love <a href="http://github.com/ksmandersen">GitHub</a> and I <a href="http://twitter.com/ksmandersen">Tweet</a> a lot.</p>
+            </div>
+            <div class="aside">
+              <a href="/"><img class="avatar" src="/assets/andersen-x2-eb7cb38244e48a2448e7f45c6bb80b2a.jpg" /></a>
+            </div>
+          </header>
+        </div>
+
+        <div class="content-container">
+          <section role="main" class="content">
+            <h1>Nordic Game Jam 2015</h1>
+<p class="meta">15 Feb 2015</p>
+
+<div class="post">
+<p><a href="http://robo.cat/superlaserrobots/"><img src="/assets/superlaserrobots-3082e0b2a72a0caae54ea42172d7e652.png" alt="Workflow example"></a></p>
+
+<blockquote>
+<p>Life is more fun if you play games</p>
+
+<p>-- Roald Dahl</p>
+</blockquote>
+
+<p>Games are fun to play but also fun to make. This past weekend I attended my second game jam, <a href="http://nordicgamejam.org/">Nordic Game Jam 2015</a>. If you&#39;re not familiar with Game Jams it is an event in which you invent, design and build a game in a short time (usually 48 hours). I last attended in 2013 where we made a pretty awesome local two-player arena style game with doctor gone mad called <a href="http://robo.cat/buddybuilder">Buddy Builder</a>. This year we created local four-player fighting game with robots shooting lasers called <a href="http://robo.cat/superlaserrobots">Super Laser Robots</a>.</p>
+
+<h2>The Tech</h2>
+
+<p>For this years game we decided to go with a familiar language that we really like. What better choice than Swift. This choice also gave us a ready make excuse to try out &quot;new&quot; and interesting SpriteKit.</p>
+
+<p>Swift has over the the last ~8 months since its introduction become more and more stable. It is already to the point where it is the primary language in all our new ventures at <a href="http://robo.cat">Robocat</a>. Even though the language is pretty stable and has cool shiny new features its toolchain still suffer. We decided before starting JAM to count crashes and issues with Xcode and Swift. </p>
+
+<p>The results was as follows:</p>
+
+<ul>
+<li>SourceKit crashes: 58</li>
+<li>Xcode crashes/beachballs: 7</li>
+<li>Swift compiler seg. faults: 2</li>
+</ul>
+
+<p>Had the JAM taken place just a few months earlier prior to Xcode 6.1, the numbers would have significantly worse. The Swift compiler still has some pretty rough edges. One of the segfaults stems we got arises when trying to compare a value agains an enum case:</p>
+
+<script src="https://gist.github.com/ksmandersen/4af33879ed16c04d7d98.js"> </script>
+
+<p>This is some pretty basic stuff that pretty easily chokes up the compiler. Rumors are that the Swift 1.2 beta solves most of these obnoxious errors though there are many left.</p>
+
+<p>For all the bad things said about Swift here I could say at least twice as many lovely things. I&#39;ll focus on one positive. One of our team members had never written any Swift code, and is primarily concerned with backend development in languages like Python and Rust. He was able to pick up swift and start building code in only a few short hours and was very profficient before the weekend ended. Say what you will, but I think the learning could would have been significantly steeper if it had been Objective-C.</p>
+
+<h2>The Game</h2>
+
+<p>The actual resulting game was not overall great to play but we had so much fun building. <a href="https://soundcloud.com/soundbrandt/sets/super-laser-robots-nordic-game">The music and sounds</a> were beyond awesome, the graphics were great and our idea was interesting. In the end we just didn&#39;t have enough time to get the game mechanics to work just right. The game came down to who smashes the key fastest to kill the other opponents.</p>
+
+<p>We had fun building our game and we learned a lot about building games with SpriteKit. You can <a href="http://robo.cat/superlaserrobots">find the game here</a> or find the <a href="http://github.com/robocat/superlaserrobots">code on GitHub</a>.</p>
+
+</div>
+
+          </section>
+        </div>
+
+        <div class="footer-container">
+          <footer class="footer"></footer>
+        </div>
+
+        </div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-23025516-2', 'kristian.co');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

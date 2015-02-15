@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>A workflow for scaling retina assets ~ kristian.co</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="RSS feed"/>
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/assets/main-efaf160500a2d96a3b918d68dc4a1d43.css">
+        
+
+    </head>
+    <body>
+      <div class="container">
+        <div class="header-container">
+          <header class="header">
+            <div class="bside">
+              <a href="/"><img class="avatar" src="/assets/andersen-x2-eb7cb38244e48a2448e7f45c6bb80b2a.jpg" /></a>
+
+              <p>Hi! I'm Kristian. I'm an iOS &amp; Frontend Developer at <a href="http://robo.cat">Robocat</a> where I do <a href="http://televisedapp.com/">Televised</a> and a million other awesome things. I love <a href="http://github.com/ksmandersen">GitHub</a> and I <a href="http://twitter.com/ksmandersen">Tweet</a> a lot.</p>
+            </div>
+            <div class="aside">
+              <a href="/"><img class="avatar" src="/assets/andersen-x2-eb7cb38244e48a2448e7f45c6bb80b2a.jpg" /></a>
+            </div>
+          </header>
+        </div>
+
+        <div class="content-container">
+          <section role="main" class="content">
+            <h1>A workflow for scaling retina assets</h1>
+<p class="meta">07 Oct 2014</p>
+
+<div class="post">
+<p>Yesterday I published a small Automator workflow for OS X that I use to generate @2x and @1x scaled versions of my @3x assets. Apparently it generated a bit of fuzz <a href="https://twitter.com/ksmandersen/status/519144015837814784">on twitter</a>, so I thought it might be worth posting here too.</p>
+
+<p>I have been using this workflow for ages for downscaling @2x assets to @1x. It only made sense to update the workflow for @3x assets and share it with other lazy developers who hate manual work as much as me.</p>
+
+<p><center>
+<img src="/assets/unretina-8da602f1e1b6ae32ca3f332e7e7621db.gif" alt="Workflow example">
+</center></p>
+
+<p>You can get the workflow right here:</p>
+
+<p><center>
+<a href="/downloads/unretina.workflow.zip"><img src="/assets/unretina_workflow_screenshot-4d998f5f8873e08e17781d545c06e789.png" alt="Unretina Workflow"></a>
+</center></p>
+
+<h2>Sidenote</h2>
+
+<p>As pointed out by several people on Twitter it is not the ideal solution to downscale image assets for iOS apps. The ideal solution is to use vector images in PDF files that Xcode can automatically upscale without artifacts. It is however often not possible to generate vector graphics for all parts of an app which is why I use this script for those assets.</p>
+
+</div>
+
+          </section>
+        </div>
+
+        <div class="footer-container">
+          <footer class="footer"></footer>
+        </div>
+
+        </div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-23025516-2', 'kristian.co');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

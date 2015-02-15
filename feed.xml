@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kristian&#39;s coding adventures</title>
+		<description>Thoughts of an iOS developer</description>		
+		<link>http://kristian.co</link>
+		<atom:link href="http://kristian.co/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Nordic Game Jam 2015</title>
+				<description>&lt;p&gt;&lt;a href=&quot;http://robo.cat/superlaserrobots/&quot;&gt;&lt;img src=&quot;/assets/superlaserrobots-3082e0b2a72a0caae54ea42172d7e652.png&quot; alt=&quot;Workflow example&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Life is more fun if you play games&lt;/p&gt;
+
+&lt;p&gt;-- Roald Dahl&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Games are fun to play but also fun to make. This past weekend I attended my second game jam, &lt;a href=&quot;http://nordicgamejam.org/&quot;&gt;Nordic Game Jam 2015&lt;/a&gt;. If you&amp;#39;re not familiar with Game Jams it is an event in which you invent, design and build a game in a short time (usually 48 hours). I last attended in 2013 where we made a pretty awesome local two-player arena style game with doctor gone mad called &lt;a href=&quot;http://robo.cat/buddybuilder&quot;&gt;Buddy Builder&lt;/a&gt;. This year we created local four-player fighting game with robots shooting lasers called &lt;a href=&quot;http://robo.cat/superlaserrobots&quot;&gt;Super Laser Robots&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;The Tech&lt;/h2&gt;
+
+&lt;p&gt;For this years game we decided to go with a familiar language that we really like. What better choice than Swift. This choice also gave us a ready make excuse to try out &amp;quot;new&amp;quot; and interesting SpriteKit.&lt;/p&gt;
+
+&lt;p&gt;Swift has over the the last ~8 months since its introduction become more and more stable. It is already to the point where it is the primary language in all our new ventures at &lt;a href=&quot;http://robo.cat&quot;&gt;Robocat&lt;/a&gt;. Even though the language is pretty stable and has cool shiny new features its toolchain still suffer. We decided before starting JAM to count crashes and issues with Xcode and Swift. &lt;/p&gt;
+
+&lt;p&gt;The results was as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SourceKit crashes: 58&lt;/li&gt;
+&lt;li&gt;Xcode crashes/beachballs: 7&lt;/li&gt;
+&lt;li&gt;Swift compiler seg. faults: 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Had the JAM taken place just a few months earlier prior to Xcode 6.1, the numbers would have significantly worse. The Swift compiler still has some pretty rough edges. One of the segfaults stems we got arises when trying to compare a value agains an enum case:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/ksmandersen/4af33879ed16c04d7d98.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;This is some pretty basic stuff that pretty easily chokes up the compiler. Rumors are that the Swift 1.2 beta solves most of these obnoxious errors though there are many left.&lt;/p&gt;
+
+&lt;p&gt;For all the bad things said about Swift here I could say at least twice as many lovely things. I&amp;#39;ll focus on one positive. One of our team members had never written any Swift code, and is primarily concerned with backend development in languages like Python and Rust. He was able to pick up swift and start building code in only a few short hours and was very profficient before the weekend ended. Say what you will, but I think the learning could would have been significantly steeper if it had been Objective-C.&lt;/p&gt;
+
+&lt;h2&gt;The Game&lt;/h2&gt;
+
+&lt;p&gt;The actual resulting game was not overall great to play but we had so much fun building. &lt;a href=&quot;https://soundcloud.com/soundbrandt/sets/super-laser-robots-nordic-game&quot;&gt;The music and sounds&lt;/a&gt; were beyond awesome, the graphics were great and our idea was interesting. In the end we just didn&amp;#39;t have enough time to get the game mechanics to work just right. The game came down to who smashes the key fastest to kill the other opponents.&lt;/p&gt;
+
+&lt;p&gt;We had fun building our game and we learned a lot about building games with SpriteKit. You can &lt;a href=&quot;http://robo.cat/superlaserrobots&quot;&gt;find the game here&lt;/a&gt; or find the &lt;a href=&quot;http://github.com/robocat/superlaserrobots&quot;&gt;code on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 15 Feb 2015 14:16:00 +0100</pubDate>
+				<link>http://kristian.co/development/2015/02/15/nordic-game-jam-2015.html</link>
+				<guid isPermaLink="true">http://kristian.co/development/2015/02/15/nordic-game-jam-2015.html</guid>
+			</item>
+		
+			<item>
+				<title>My favorite iOS Keyboard: Kaomoji</title>
+				<description>&lt;p&gt;iOS 8 is finally out and everyone and their moms are making custom iOS keyboards to sell on the app store. Even me, yes. I have tried pretty much every keyboard available but have only found one that I truly love.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&quot;/assets/kaomoji-e0eedc61a34a402ea70c2a005bd905b1.png&quot; alt=&quot;Kaomoji&quot;&gt;
+&lt;img src=&quot;/assets/kaomoji2-aea13c81c54254962b680c5e5a4d617f.png&quot; alt=&quot;Kaomoji&quot;&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Today my friend, and colleague at Robocat, &lt;a href=&quot;http://twitter.com/ulrikdamm&quot;&gt;Ulrik&lt;/a&gt; released his latest creation &lt;a href=&quot;http://getkaomoji.com&quot;&gt;Kaomoji&lt;/a&gt;. Kaomoji is an custom iOS Keyboard that let&amp;#39;s you quickly browse and send kaomoji (e.g. japanese text emoticons) to all your friends. The keyboard also let&amp;#39;s you build your own kaomoji from scratch with a fun interface. The app is beautifully designed and feels very native for something that his very different from an Apple keyboard. &lt;/p&gt;
+
+&lt;p&gt;In full disclosure I had the pleasure of making the website for Kaomoji which means I am totally biased. But everyone should &lt;a href=&quot;http://getkaomoji.com&quot;&gt;check out Kaomoji&lt;/a&gt;. It&amp;#39;s free on the App Store.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 14 Oct 2014 16:44:00 +0200</pubDate>
+				<link>http://kristian.co/reviews/2014/10/14/My-favorite-ios-keyboard-kaomoji.html</link>
+				<guid isPermaLink="true">http://kristian.co/reviews/2014/10/14/My-favorite-ios-keyboard-kaomoji.html</guid>
+			</item>
+		
+			<item>
+				<title>A workflow for scaling retina assets</title>
+				<description>&lt;p&gt;Yesterday I published a small Automator workflow for OS X that I use to generate @2x and @1x scaled versions of my @3x assets. Apparently it generated a bit of fuzz &lt;a href=&quot;https://twitter.com/ksmandersen/status/519144015837814784&quot;&gt;on twitter&lt;/a&gt;, so I thought it might be worth posting here too.&lt;/p&gt;
+
+&lt;p&gt;I have been using this workflow for ages for downscaling @2x assets to @1x. It only made sense to update the workflow for @3x assets and share it with other lazy developers who hate manual work as much as me.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&quot;/assets/unretina-8da602f1e1b6ae32ca3f332e7e7621db.gif&quot; alt=&quot;Workflow example&quot;&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;You can get the workflow right here:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&quot;/downloads/unretina.workflow.zip&quot;&gt;&lt;img src=&quot;/assets/unretina_workflow_screenshot-4d998f5f8873e08e17781d545c06e789.png&quot; alt=&quot;Unretina Workflow&quot;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2&gt;Sidenote&lt;/h2&gt;
+
+&lt;p&gt;As pointed out by several people on Twitter it is not the ideal solution to downscale image assets for iOS apps. The ideal solution is to use vector images in PDF files that Xcode can automatically upscale without artifacts. It is however often not possible to generate vector graphics for all parts of an app which is why I use this script for those assets.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 07 Oct 2014 11:15:00 +0200</pubDate>
+				<link>http://kristian.co/2014/10/07/a-workflow-for-scaling-retina-assets.html</link>
+				<guid isPermaLink="true">http://kristian.co/2014/10/07/a-workflow-for-scaling-retina-assets.html</guid>
+			</item>
+		
+			<item>
+				<title>The state of testing iOS apps</title>
+				<description>&lt;p&gt;I&amp;#39;ve been spending more and more time researching and thinking about testing apps in the past few months. At the university they teach you that testing (in particular Unit Testing) is an integral part of the development process that you must not skip. I&amp;#39;ve heard from many fellow students that they use testing rogoursley in their development jobs using C#, Java, etc. This is far from my experience writing iOS Apps. You can practically see the tumbleweeds crossing the testing dessert in Objective-C land. &lt;/p&gt;
+
+&lt;p&gt;Almost all fellow iOS developers I talk to about this are outright dismissive of the idea that testing is important. &amp;quot;Just write code that works&amp;quot;, they say. This is not the kind of development culture I pride myself of being part of. With that said, let&amp;#39;s look at the resources and tools that are availble to us.&lt;/p&gt;
+
+&lt;p&gt;Apple made a huge push toward testing with their release of Xcode 5 with the better integration for testing. They introduced XCTest which is their own clone of SenTestingKit and Xcode Bots for Continous Integration practices. Using these tools you can actually get very far with testing since everything you need to get started is baked right into your standard installation of Xcode.&lt;/p&gt;
+
+&lt;p&gt;&amp;quot;Alright, so I have the tools. How do I get started then?&amp;quot;. Well, this is where I&amp;#39;m at a loss. In my research I have only managed to find one single book about testing as it relates to Objective-C which is &lt;a href=&quot;http://www.amazon.com/Test-Driven-iOS-Development-Developers-Library/dp/0321774183&quot;&gt;Test-Driven iOS Development&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/secboffin&quot;&gt;Graham Lee&lt;/a&gt;. The book itself is pretty good but after reading it cover to cover I still feel like there is much more to be said about testing iOS apps.&lt;/p&gt;
+
+&lt;p&gt;Where I really started to catch on to how I approach testing is when I discovered all the great material produced by &lt;a href=&quot;http://twitter.com/qcoding&quot;&gt;Jon Reid&lt;/a&gt;. Jon has a &lt;a href=&quot;http://qualitycoding.org/&quot;&gt;series of great posts&lt;/a&gt; with video tutorials about how to &lt;a href=&quot;http://qualitycoding.org/mvc-tdd/&quot;&gt;test-drive your MVC structure&lt;/a&gt;. But where things really clicked is when I watched &lt;a href=&quot;https://www.youtube.com/watch?v=Jzlz3Bx-NzM&quot;&gt;his talk&lt;/a&gt; at MCE 2014 about &lt;a href=&quot;https://www.youtube.com/watch?v=Jzlz3Bx-NzM&quot;&gt;Test-Driven Development for iOS&lt;/a&gt;. &lt;em&gt;I embeded it below&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have found any good resources I would love to hear about them! Catch me on &lt;a href=&quot;http://twitter.com/ksmandersen&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 24 Apr 2014 14:50:00 +0200</pubDate>
+				<link>http://kristian.co/2014/04/24/the-state-of-ios-testing.html</link>
+				<guid isPermaLink="true">http://kristian.co/2014/04/24/the-state-of-ios-testing.html</guid>
+			</item>
+		
+			<item>
+				<title>Podcasts for Cocoa Developers</title>
+				<description>&lt;p&gt;As any good Copenhagen citizen I commute to and from work/university on my bike which adds up to an average 22 km per day (that&amp;#39;s 13 miles for you americans). This gives me a great excuse and opportunity to listen to podcasts. I subscribe to a total of 29 podcasts, which seems like a lot but is really not with 10 hours of commute every week.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#39;re a iOS/OS X developer this a golden time in the podcast area. There is so much greatly produced content out there. Here I present in descending order the list of my favourite development or technology related podcasts:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. &lt;a href=&quot;http://podcasts.thoughtbot.com/buildphase&quot;&gt;Build Phase&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+This is my new favourite podcast that I look forward to all week. I listen to it as soon as I get the notification! It is hosted by &lt;a href=&quot;https://twitter.com/21x9&quot;&gt;Mark Adams&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/GFontenot&quot;&gt;Gordon Fontenot&lt;/a&gt; who are both Cocoa developers at &lt;a href=&quot;http://thoughtbot.com/&quot;&gt;thoughtbot&lt;/a&gt;. The show sticks to pretty much one topic each week and give great insights into iOS development subjects.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. &lt;a href=&quot;http://therecord.co/&quot;&gt;The Record&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Currently in its first season the show is dedicated to tell the story of developers in Seattle before the launch of the iPhone in 2007 and how it changed the development scene. This show has already (now by its 7th episode) many great developers onboard. Each episode a new developer is interviewed about their history in development. This is a great show if for nothing else, nostalgia.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. &lt;a href=&quot;http://www.imore.com/debug&quot;&gt;Debug&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Hosted by infamous &lt;a href=&quot;https://twitter.com/reneritchie&quot;&gt;Rene Ritche&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/gte&quot;&gt;Guy English&lt;/a&gt; this is another show that interviews cool developers in the Cocoa development community and discuss history and timely topics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. &lt;a href=&quot;http://edgecasesshow.com/&quot;&gt;Edge Cases&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+I recently started listening to this show and currently in the processes of listening through the backlog of 80 episodes. In this show &lt;a href=&quot;https://twitter.com/apontious&quot;&gt;Andrew Pontious&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/rentzsch&quot;&gt;Wolf Rentzsch&lt;/a&gt; discuss timeless topics in Cocoa development and how to how to solve difficult topics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. &lt;a href=&quot;http://www.notificationcenter.tv/&quot;&gt;Notification Center&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Formed as a casual conversation between &lt;a href=&quot;https://twitter.com/ashfurrow&quot;&gt;Ash Furrow&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/swizzlr&quot;&gt;Top Copley&lt;/a&gt; this shows touch on timely topics. The show is very casual end very enjoyable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. &lt;a href=&quot;http://atp.fm/&quot;&gt;Accidental Tech Podcast&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+If you haven&amp;#39;t heard about ATP by now you must be living under a rock. Staring &lt;a href=&quot;https://twitter.com/siracusa&quot;&gt;John Siracusa&lt;/a&gt; (long known for &lt;a href=&quot;http://hypercritical.co/&quot;&gt;Hypercritical&lt;/a&gt;), &lt;a href=&quot;https://twitter.com/marcoarment&quot;&gt;Marco Arment&lt;/a&gt; (known for &lt;a href=&quot;http://marco.org&quot;&gt;his blog&lt;/a&gt;; formerly of &lt;a href=&quot;http://instapaper.com&quot;&gt;Instapaper&lt;/a&gt;, &lt;a href=&quot;http://tumblr.com&quot;&gt;Tumblr&lt;/a&gt; and &lt;a href=&quot;http://the-magazine.org/&quot;&gt;The Magazine&lt;/a&gt;) and &lt;a href=&quot;https://twitter.com/caseyliss&quot;&gt;Casey Liss&lt;/a&gt; (known for.. &lt;a href=&quot;http://5by5.tv/cmdspace/89&quot;&gt;Who the hell is casey?&lt;/a&gt;). This show is always a hoot and a half to listen to. Mostly the topics surround Apple and technology but other subjects have included &lt;a href=&quot;http://atp.fm/episodes/55-dave-who-stinks&quot;&gt;Software Methodologies&lt;/a&gt; and &lt;a href=&quot;http://atp.fm/episodes/57-smorgasbord-of-pronunciation&quot;&gt;Sexism in the tech world&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7. &lt;a href=&quot;http://www.coreint.org/&quot;&gt;Core Intuition&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+There is something profoundly funny about listening to &lt;a href=&quot;https://twitter.com/danielpunkass&quot;&gt;Daniel Jalkut&lt;/a&gt; (aKa. Daniel Punkass) ranting about stuff with his buddy &lt;a href=&quot;https://twitter.com/manton&quot;&gt;Manton Reece&lt;/a&gt;. This podcasts mostly covers the world of indie software development and Apple related news.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8. &lt;a href=&quot;http://springboardshow.com/&quot;&gt;Springboard&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+In this podcast &lt;a href=&quot;https://twitter.com/ashfurrow&quot;&gt;Ash Furrow&lt;/a&gt; (who also co-hosts &lt;a href=&quot;http://www.notificationcenter.tv/&quot;&gt;Notification Center&lt;/a&gt;) interviews developers in the Mac and iOS community while focusing on new developers entering the field.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9. &lt;a href=&quot;http://developingperspective.com/&quot;&gt;Developing Perspective&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&quot;https://twitter.com/_davidsmith&quot;&gt;David Smith&lt;/a&gt; (aKa. underscore) takes a refreshing look at various topics in developing apps for the iOS platform. Each podcast is under 15 minutes and always gives great food for thought.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10. &lt;a href=&quot;http://iphreaksshow.com/&quot;&gt;iPhreaks Show&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+This podcast is the most recent addition to my many subscriptions and I have only managed to listen to a few episodes so far. This show is also based on interviewing developers and discussing interesting development topics in Cocoa. I can warmly recommend their episodes on &lt;a href=&quot;http://iphreaksshow.com/042-iphreaks-show-concurrency-with-jeff-kelley/&quot;&gt;Concurrency with Jeff Kellyey&lt;/a&gt; and &lt;a href=&quot;http://iphreaksshow.com/024-iphreaks-show-64-bit-with-mike-ash/&quot;&gt;64-bit with Mike Ash&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some of these podcasts are very topical and touch on may different and interesting subjects and try to give some insights. Others are interview based where they focus more on the historical aspects of technology and development. Either way I find that each of these shows are definitely worth listening to.&lt;/p&gt;
+
+&lt;p&gt;I also listen to some non-development related podcasts and here are my favourite ones:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.imore.com/adhoc&quot;&gt;Ad Hoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://5by5.tv/incomparable&quot;&gt;The Incomparable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://5by5.tv/mpu&quot;&gt;Mac Power Users&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twit.tv/mbw&quot;&gt;MacBreak Weekly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twit.tv/twit&quot;&gt;This Week In Tech&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have some suggestions for good podcasts on your own I&amp;#39;d love to &lt;a href=&quot;http://twitter.com/ksmandersen&quot;&gt;hear about them&lt;/a&gt;! &lt;/p&gt;
+
+&lt;p&gt;For the ones who haven&amp;#39;t quite settled on a preferred podcast client you should try &lt;a href=&quot;http://castro.fm&quot;&gt;Castro&lt;/a&gt;. Its elegantly designed, simple and it works every time!.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 01 Apr 2014 00:00:00 +0200</pubDate>
+				<link>http://kristian.co/2014/04/01/podcasts-for-cocoa-developers.html</link>
+				<guid isPermaLink="true">http://kristian.co/2014/04/01/podcasts-for-cocoa-developers.html</guid>
+			</item>
+		
+			<item>
+				<title>The AppCode Resistance</title>
+				<description>&lt;p&gt;I first came to learn about &lt;a href=&quot;http://www.jetbrains.com/objc/&quot;&gt;AppCode&lt;/a&gt; in February of 2013. At the time I was blisfully unaware that there were any other way to compile and run an iOS app other than use Xcode directly from &lt;a href=&quot;http://www.wired.com/2013/11/a-glimpse-into-apples-crazy-new-spaceship-headquarters/&quot;&gt;the mothership&lt;/a&gt;. I was thrilled to try something other than the buginfested forever crashing editor that Xcode was at that point. I found that AppCode had many cool features and I quickly invested in a license. After using AppCode for a couple of days my interest quickly vanished as I was missing essential features from Xcode and as AppCode was constantly throwing me errors when compiling. I put away AppCode and went back to my daily routine with Xcode.&lt;/p&gt;
+
+&lt;p&gt;Two months ago I got an email from &lt;a href=&quot;http://www.jetbrains.com&quot;&gt;JetBrains&lt;/a&gt; telling me that my AppCode support license was about to expire. I had totally forgotten about AppCode and went to see what had happened in the last year. It seemed that much had changed. Stability and compatability was improved and many great features, like native CocoaPods integration, improved refactoring tools and Clang integration. I decided to give AppCode another try and I was pleasantly surprised. &lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve been using AppCode on a daily basis for two months now and rarely open Xcode for anything other than quickly editing a Storyboard. Thanks to the high speed of the editor, the vast variety of refactoring tools and keyboard shortcuts my development speed has gone up significantly. I can tame my editor to my liking, something I was never able to do with Xcode.&lt;/p&gt;
+
+&lt;p&gt;So why did I resist so much in the first place? Like most iOS developer I know, I really hate Java with a passion. I dislike the language, the horrible insecure platform and the terribly slow interpretor. It is very obvious to developers that launch AppCode for the first time that is written in Java. It has familiar look and feel that most Java editors have. Unlike other editors written in Java, AppCode is fast though. Another of my big concerns about using AppCode was using something that wasnt part of the official Apple ecosystem. It felt like Apple was secretely condeming for using a third-party editor.&lt;/p&gt;
+
+&lt;p&gt;But what it comes down to in the end is being a &lt;a href=&quot;http://pragprog.com/the-pragmatic-programmer&quot;&gt;pragmatic programmer&lt;/a&gt;. Choosing the right tool for the job. The tool that gets you to the finish line fast and reliably. For me, that tool is AppCode for now&lt;/p&gt;
+</description>
+				<pubDate>Mon, 31 Mar 2014 00:00:00 +0200</pubDate>
+				<link>http://kristian.co/2014/03/31/the-appcode-resistance.html</link>
+				<guid isPermaLink="true">http://kristian.co/2014/03/31/the-appcode-resistance.html</guid>
+			</item>
+		
+			<item>
+				<title>Static site development with pow</title>
+				<description>&lt;p&gt;Ever had to set up Apache and VirtualHosts for local web developemnt?
+Ever had to do lots of static site development and then test it on lots of devices? Then you&amp;#39;ll love &lt;a href=&quot;http://pow.cx&quot;&gt;Pow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pow is a small webserver created by the briliant guys at &lt;a href=&quot;http://37signals.com&quot;&gt;37signals&lt;/a&gt;. It was developed for making local devlopment of
+Ruby on Rails apps easier but it works just as well for static website.&lt;/p&gt;
+
+&lt;p&gt;Getting Pow up and running is very easy. Simply fire up your terminal and run the installer like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl get.pow.cx &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then add your local website as a host like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/.pow
+ln -s /path/to/myapp&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now getting to your website is as easy as pointing your browser at &lt;code&gt;http://myapp.dev&lt;/code&gt;. Using pow with static sites
+does have one minor caveat. Because Pow is developed for Rails apps you have to put all your static files inside a
+directory named &lt;code&gt;public&lt;/code&gt; in your website directory. There probably is a way around this but I haven&amp;#39;t found it yet.&lt;/p&gt;
+
+&lt;p&gt;Pow makes it very conevenient to test your websites on other devices too. With pow and &lt;a href=&quot;http://xip.io&quot;&gt;xip.io&lt;/a&gt; you
+can reach your websites from any device within your local network. Say your local website is at &lt;code&gt;myapp.dev&lt;/code&gt; and your
+local ip address is &lt;code&gt;192.168.1.100&lt;/code&gt; then you pick your iPad and go to &lt;code&gt;http://myapp.192.178.1.100.xip.io&lt;/code&gt; and test your
+website.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 26 Jan 2013 12:13:00 +0100</pubDate>
+				<link>http://kristian.co/2013/01/26/static-site-development-with-pow.html</link>
+				<guid isPermaLink="true">http://kristian.co/2013/01/26/static-site-development-with-pow.html</guid>
+			</item>
+		
+	</channel>
+</rss>
