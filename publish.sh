@@ -9,7 +9,7 @@ if [ -d "/tmp/jekyll_build" ]; then
     mkdir /tmp/jekyll_build
 
     # build website
-    jekyll build -d /tmp/jekyll_build/
+    bundle exec jekyll build -d /tmp/jekyll_build/
 
     # publish on github only if jekyll build was successful
     if [ $? -eq 0 ]; then
