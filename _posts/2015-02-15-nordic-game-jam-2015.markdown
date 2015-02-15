@@ -37,6 +37,6 @@ For all the bad things said about Swift here I could say at least twice as many 
 
 ## The Game
 
-The actual resulting game was not overall great to play but we had so much fun building. [The music and sounds](https://soundcloud.com/soundbrandt/sets/super-laser-robots-nordic-game) were beyound awesome, the graphics were great and our idea was interesting. In the end we just didn't have enough time to get the game mechanics to work just right. The game came down to who smashes the key fastest to kill the other opponents.
+The actual resulting game was not overall great to play but we had so much fun building. [The music and sounds](https://soundcloud.com/soundbrandt/sets/super-laser-robots-nordic-game) were beyond awesome, the graphics were great and our idea was interesting. In the end we just didn't have enough time to get the game mechanics to work just right. The game came down to who smashes the key fastest to kill the other opponents.
 
 We had fun building our game and we learned a lot about building games with SpriteKit. You can [find the game here](http://robo.cat/superlaserrobots) or find the [code on GitHub](http://github.com/robocat/superlaserrobots).
